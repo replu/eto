@@ -9,6 +9,7 @@ func TestCalc(t *testing.T) {
 	}{
 		"2023 = 卯年": {2023, "卯年"},
 		"2024 = 辰年": {2024, "辰年"},
+		"2025 = 巳年": {2025, "巳年"},
 	}
 	for name, tt := range tests {
 		tt := tt
